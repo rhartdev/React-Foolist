@@ -7,6 +7,7 @@ const randomIndex = (arrayLength) => (
 const FooList = ({ fooList, createFoo, toggleCompleteFoo }) => {
   const newFoo = () => {
     const speed = ['slow', 'fast', 'very fast'];
+    
     const colour = ['blue', 'white', 'black', 'blue'];
     const size = ['tiny', 'small', 'medium', 'large', 'jumbo'];
 
